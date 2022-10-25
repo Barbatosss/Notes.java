@@ -1,0 +1,23 @@
+public class App {
+    public static void main(String[] args) {
+
+        // Array of Strings
+        String[] alcoholList = { "Alfonso", "Whisky", "Chivas Regal", "Jinro soju",
+                "Green Cross" };
+
+        // Access first array element
+        System.out.println(alcoholList[0]);
+
+        // Access second array element
+        System.out.println(alcoholList[1]);
+
+        // Access third array element
+        System.out.println(alcoholList[2]);
+
+        // Access fourth array element
+        System.out.println(alcoholList[3]);
+
+        // Access last array element
+        System.out.println(alcoholList[4]);
+    }
+}
