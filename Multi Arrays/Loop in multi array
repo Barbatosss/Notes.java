@@ -3,9 +3,9 @@ public class App {
 
         // 3x3
         String[][] seatingArrangement = { { "Miko", "Pransue", "Suwe" },
-                { "hahaha", "Bianca", "Cristian" },
-                { "Ilaw", "Sa", "Daan" } };
-
+                                          { "hahaha", "Bianca", "Cristian" },
+                                          { "Ilaw", "Sa", "Daan" } };
+    
         // outer loop
         for (int row = 0; row < seatingArrangement.length; row++) {
 
