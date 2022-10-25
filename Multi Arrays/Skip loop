@@ -1,1 +1,27 @@
+public class App {
+  
+  
+    public static void main(String[] args) throws Exception {
 
+        // 3x3
+        String[][] alphabet = { { "A", "B", "C" },
+                                { "D", "E", "F" },
+                                { "G", "H", "I" }, 
+                                { "J", "K", "L" },
+                                { "M", "N", "O" }
+                                                  };         
+                                        
+                    for (int row = 0; row < alphabet.length; row++) {
+
+                        if (row % 2 != 0){
+                        System.out.print("  " + alphabet[row][1]);
+                    }
+                   else{
+                        System.out.print(alphabet[row][0] + "   ");
+                        System.out.print(alphabet[row][2] + "   ");
+                    }
+                    
+                     System.out.println(" ");
+                    }
+      }
+}
